@@ -1,0 +1,82 @@
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #5a5959;
+    height: 100vh;
+}
+
+.logo-container {
+    position: relative;
+    width: 200px; 
+    height: 200px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.diamond {
+    position: absolute;
+    width: 13px; 
+    height: 140px; 
+    transform: rotate(45deg);
+}
+
+.diamond-1 {
+    top: -10%;
+    left:18%;
+    bottom: -100%;
+    height: 135px;
+    transform: translateX(500%) rotate(45deg); 
+    background-color: #60b563;
+}
+
+.diamond-2 {
+    top: 40%;
+    left: 50%;
+    bottom: 40%;
+    transform: translateY(-0%) rotate(-45deg); 
+    background-color: rgb(85, 159, 244);
+}
+
+.diamond-3 {
+    top: 49%;
+    right: 0%;  
+    transform: translateY(-80%) rotate(135deg);
+    background-color: rgb(234, 155, 9);
+}
+
+.diamond-4 {
+    bottom: 0%;
+    left: 100%;
+    right: 0%;
+    top: 40%;
+    transform: translateX(-100%) rotate(45deg);
+    background-color: rgb(99, 96, 96);
+}
+
+.text-content {
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+.heading {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.para {
+    margin: 0;
+    font-size: 12px;
+    margin-left: 100px;
+}
+
+span {
+    color: rgb(234, 155, 9);
+}
